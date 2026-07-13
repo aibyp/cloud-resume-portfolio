@@ -1,0 +1,55 @@
+.education{
+
+padding:120px 8%;
+
+}
+
+.edu-card{
+
+margin-top:60px;
+
+background:rgba(255,255,255,.05);
+
+padding:45px;
+
+border-radius:25px;
+
+backdrop-filter:blur(18px);
+
+transition:.35s;
+
+}
+
+.edu-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.edu-card h3{
+
+font-size:2rem;
+
+margin-bottom:15px;
+
+}
+
+.edu-card span{
+
+color:#ff5ad7;
+
+display:block;
+
+margin-bottom:20px;
+
+font-size:1.2rem;
+
+}
+
+.edu-card h4{
+
+margin-top:20px;
+
+color:#ff5ad7;
+
+}

@@ -1,0 +1,176 @@
+.skills{
+    padding:120px 8%;
+}
+
+/* ---------- Section Header ---------- */
+
+.section-header{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 80px;
+}
+
+.section-header span{
+    display:inline-block;
+    padding:12px 26px;
+    border-radius:999px;
+    background:var(--glass);
+    border:1px solid var(--border);
+    color:var(--accent);
+    letter-spacing:2px;
+    font-size:.9rem;
+    margin-bottom:25px;
+}
+
+.section-header h2{
+    font-size:3.8rem;
+    font-weight:800;
+    color:var(--white);
+    margin-bottom:20px;
+}
+
+.section-header p{
+    color:var(--text-secondary);
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+/* ---------- Categories ---------- */
+
+.skills-container{
+    display:flex;
+    flex-direction:column;
+    gap:45px;
+}
+
+.skill-category{
+
+    background:var(--glass);
+
+    border:1px solid var(--border);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:28px;
+
+    padding:35px;
+
+    transition:.45s ease;
+
+}
+
+.skill-category:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+        var(--glow),
+        0 25px 70px rgba(0,0,0,.35);
+
+}
+
+.skill-category h3{
+
+    font-size:1.8rem;
+
+    color:var(--white);
+
+    margin-bottom:30px;
+
+}
+
+/* ---------- Skill Pills ---------- */
+
+.skills-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+}
+
+.skill-pill{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:14px 22px;
+
+    background:rgba(255,255,255,.06);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:999px;
+
+    color:var(--white);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.skill-pill:hover{
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        var(--accent)
+    );
+
+    transform:
+        translateY(-6px)
+        scale(1.05);
+
+    box-shadow:
+        0 12px 30px rgba(220,79,194,.35);
+
+}
+
+.skill-icon{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:1.3rem;
+
+    color:white;
+
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:1000px){
+
+.skills{
+    padding:90px 6%;
+}
+
+.section-header h2{
+    font-size:3rem;
+}
+
+.skill-category{
+    padding:28px;
+}
+
+.skills-grid{
+    gap:14px;
+}
+
+.skill-pill{
+    width:100%;
+    justify-content:flex-start;
+}
+
+}

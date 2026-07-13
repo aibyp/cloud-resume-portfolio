@@ -1,0 +1,63 @@
+.experience{
+padding:120px 10%;
+}
+
+.experience h2{
+font-size:4rem;
+text-align:center;
+margin-bottom:60px;
+}
+
+.timeline{
+display:grid;
+gap:35px;
+}
+
+.timeline-card{
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+padding:35px;
+
+border-radius:20px;
+
+transition:.4s;
+}
+
+.timeline-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 40px rgba(255,0,180,.25);
+
+border-color:var(--accent);
+
+}
+
+.timeline-card span{
+
+color:var(--accent);
+
+font-weight:700;
+
+}
+
+.timeline-card h3{
+
+margin:10px 0;
+
+color:white;
+
+}
+
+.timeline-card h4{
+
+color:#ccc;
+
+margin-bottom:15px;
+
+}

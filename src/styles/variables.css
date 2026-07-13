@@ -1,0 +1,30 @@
+:root {
+
+  /* ===== PRIMARY BRAND COLORS ===== */
+  --primary: #9D2A9A;
+  --primary-dark: #560853;
+  --secondary: #640567;
+  --accent: #DC4FC2;
+  --background: #4B085C;
+
+  /* ===== TEXT ===== */
+  --white: #FFFFFF;
+  --text: #F5F5F5;
+  --text-secondary: #D6D6D6;
+
+  /* ===== GLASS EFFECT ===== */
+  --glass: rgba(255, 255, 255, 0.06);
+  --glass-light: rgba(255, 255, 255, 0.10);
+  --border: rgba(255, 255, 255, 0.10);
+
+  /* ===== SHADOWS ===== */
+  --shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+  --glow: 0 0 35px rgba(220, 79, 194, 0.35);
+
+  /* ===== RADIUS ===== */
+  --radius: 20px;
+
+  /* ===== TRANSITIONS ===== */
+  --transition: all 0.35s ease;
+
+}
