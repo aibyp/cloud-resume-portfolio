@@ -26,7 +26,7 @@ function Hero() {
       >
 
         <span className="hero-badge">
-          OPEN TO AI ENGINEER OPPORTUNITIES
+          LOOKING FOR   AI ENGINEER OPPORTUNITIES
         </span>
 
         <h1>
