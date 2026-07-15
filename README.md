@@ -7,7 +7,6 @@
 <p>
 An end-to-end cloud-native portfolio website built using modern DevOps practices and deployed on AWS.
 </p>
-
 <br>
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws)
