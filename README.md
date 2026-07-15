@@ -1,186 +1,190 @@
-# ☁️ Cloud Resume Portfolio - AI/ML + DevOps
+<div align="center">
 
-> An end-to-end cloud-native portfolio website built using modern DevOps practices and deployed on AWS.
+# ☁️ Cloud Resume Portfolio
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
-![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-black)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-success)
-![CloudWatch](https://img.shields.io/badge/Monitoring-CloudWatch-red)
-![S3](https://img.shields.io/badge/Storage-Amazon_S3-yellow)
-![React](https://img.shields.io/badge/Frontend-React-61DAFB)
-![Vite](https://img.shields.io/badge/Bundler-Vite-purple)
+### AI/ML Engineer • Cloud Enthusiast • DevOps Learner
 
----
+<p>
+An end-to-end cloud-native portfolio website built using modern DevOps practices and deployed on AWS.
+</p>
 
-## Overview
+<br>
 
-This project is my personal cloud-native portfolio website built using React and deployed using modern DevOps practices.
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws)
+![Docker](https://img.shields.io/badge/Docker-Container-blue?style=for-the-badge&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-black?style=for-the-badge&logo=githubactions)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Automated-success?style=for-the-badge)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-Storage-yellow?style=for-the-badge&logo=amazons3)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-Monitoring-red?style=for-the-badge&logo=amazoncloudwatch)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-Build_Tool-purple?style=for-the-badge&logo=vite)
 
-The project demonstrates:
-
-- Cloud Deployment
-- Docker Containerization
-- CI/CD Automation
-- AWS Infrastructure Management
-- Cloud Monitoring
-- Static Asset Management using Amazon S3
-- Git & GitHub Workflows
-
-The entire deployment pipeline is automated. Any code changes pushed to GitHub are automatically deployed to the live application.
+</div>
 
 ---
 
-## Architecture
+# ✨ Project Overview
 
+This project is my personal cloud-native portfolio website built using modern DevOps practices.
+
+It demonstrates:
+
+- ☁️ Cloud Deployment
+- 🐳 Docker Containerization
+- ⚡ CI/CD Automation
+- 🚀 AWS Infrastructure Management
+- 📊 Cloud Monitoring
+- 📁 Amazon S3 Static Asset Management
+- 🔥 Git & GitHub Workflows
+- 💻 Production Deployment Practices
+
+---
+
+# 🏗️ Architecture
+
+```text
+                 VS Code
+                     │
+                     ▼
+                   Git
+                     │
+                     ▼
+                 GitHub
+                     │
+                     ▼
+              GitHub Actions
+                  (CI/CD)
+                     │
+                     ▼
+              Docker Image Build
+                     │
+                     ▼
+                AWS EC2 Instance
+                     │
+                     ▼
+               Docker Container
+                     │
+                     ▼
+               Live Portfolio
 ```
 
-VS Code
-↓
-Git
-↓
-GitHub Repository
-↓
-GitHub Actions (CI/CD)
-↓
-Docker Image Build
-↓
-AWS EC2 Instance
-↓
-Docker Container
-↓
-Live Portfolio Website
+---
 
-```
+# 📁 Static Assets Workflow
 
-Static Assets:
-
-```
-
+```text
 Resume PDF
-↓
+    │
+    ▼
 Amazon S3 Bucket
-↓
-Public Download Link
-
+    │
+    ▼
+Public Object URL
+    │
+    ▼
+Portfolio Resume Button
+    │
+    ▼
+Instant Download
 ```
 
-Monitoring:
+---
 
-```
+# 📊 Monitoring Workflow
 
+```text
 AWS EC2 Instance
-↓
-Amazon CloudWatch
-↓
-CPU & Network Monitoring Dashboard
-
+        │
+        ▼
+ Amazon CloudWatch
+        │
+        ▼
+CPU Usage Monitoring
+Network Monitoring
+Instance Health Checks
 ```
 
 ---
 
-## Tech Stack
+# 🛠️ Tech Stack
 
-| Technology | Purpose |
-|------------|------------|
-| React + Vite | Frontend Development |
-| Docker | Containerization |
-| Git & GitHub | Version Control |
-| GitHub Actions | CI/CD Pipeline |
-| AWS EC2 | Deployment |
-| Amazon S3 | Resume Storage |
-| Amazon CloudWatch | Monitoring |
-| Ubuntu | Server Environment |
-| NGINX | Web Server |
-| VS Code | Development Environment |
+| Category | Technologies |
+|---------|---------|
+| Frontend | React + Vite |
+| Containerization | Docker |
+| Version Control | Git & GitHub |
+| CI/CD | GitHub Actions |
+| Cloud Hosting | AWS EC2 |
+| Storage | Amazon S3 |
+| Monitoring | CloudWatch |
+| Server OS | Ubuntu |
+| Web Server | NGINX |
+| Development | VS Code |
 
 ---
 
-## Features
+# 🚀 Features
 
-- Responsive Portfolio Website
-- Fully Dockerized Application
-- CI/CD Deployment Pipeline
-- AWS EC2 Deployment
-- Resume Download Integration
-- Cloud Monitoring Dashboard
-- GitHub Integration
+- Fully Dockerized Portfolio Website
+- Automated CI/CD Deployment Pipeline
+- Live AWS Deployment
+- Amazon S3 Resume Hosting
+- CloudWatch Monitoring Dashboard
+- Responsive Design
+- GitHub Integrated Workflow
 - Automated Updates
-- Public Cloud Deployment
-- AWS S3 Static File Hosting
+- Production Ready Architecture
 
 ---
 
-## CI/CD Workflow
+# ⚙️ CI/CD Pipeline
 
-```
-
+```text
 Code Changes
-↓
+     │
+     ▼
 
 git add .
 git commit -m "Updated Portfolio"
 git push origin main
 
-↓
+     │
+     ▼
 
 GitHub Actions Triggered
 
-↓
+     │
+     ▼
 
-Docker Image Built
+Docker Image Build
 
-↓
+     │
+     ▼
 
-Deployment Pipeline Executes
+Deploy to AWS EC2
 
-↓
+     │
+     ▼
 
-AWS EC2 Updated
+Docker Container Updated
 
-↓
+     │
+     ▼
 
-Live Website Updated
-
-```
-
-No manual deployment is required.
-
----
-
-## Project Structure
-
-```
-
-cloud-resume-portfolio/
-
-├── public/
-├── src/
-│
-├── components/
-├── assets/
-├── styles/
-│
-├── Dockerfile
-├── package.json
-├── vite.config.js
-├── README.md
-│
-└── GitHub Actions Workflow
-
+LIVE PORTFOLIO UPDATED 🎉
 ```
 
 ---
 
-## AWS Services Used
+# ☁️ AWS Services Used
 
 ### Amazon EC2
 
 Used for:
 
-- Hosting the Docker container
-- Running the portfolio website
-- Managing cloud infrastructure
+- Portfolio Hosting
+- Cloud Infrastructure Management
+- Docker Container Deployment
 
 ---
 
@@ -188,8 +192,8 @@ Used for:
 
 Used for:
 
-- Hosting the downloadable Resume PDF
-- Public object access configuration
+- Resume PDF Hosting
+- Public Asset Storage
 
 ---
 
@@ -204,21 +208,21 @@ Used for monitoring:
 
 ---
 
-## Docker Deployment
+# 🐳 Docker Commands
 
-Build Docker Image:
+### Build Docker Image
 
 ```bash
 docker build -t cloud-resume-portfolio .
 ```
 
-Run Container:
+### Run Container
 
 ```bash
 docker run -d -p 80:80 cloud-resume-portfolio
 ```
 
-Check Running Containers:
+### Check Containers
 
 ```bash
 docker ps
@@ -226,33 +230,33 @@ docker ps
 
 ---
 
-## Local Development
+# 💻 Local Development
 
-Clone the repository:
+Clone the Repository:
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/aibyp/cloud-resume-portfolio.git
 ```
 
-Install dependencies:
+Install Dependencies:
 
 ```bash
 npm install
 ```
 
-Run locally:
+Run Locally:
 
 ```bash
 npm run dev
 ```
 
-Build project:
+Build Project:
 
 ```bash
 npm run build
 ```
 
-Preview production build:
+Preview Build:
 
 ```bash
 npm run preview
@@ -260,7 +264,7 @@ npm run preview
 
 ---
 
-## Cloud Monitoring Dashboard
+# 📈 Cloud Monitoring Dashboard
 
 The CloudWatch dashboard monitors:
 
@@ -268,69 +272,42 @@ The CloudWatch dashboard monitors:
 - Network Traffic
 - Instance Health Checks
 
-This provides real-time insights into the deployed application's infrastructure.
+Providing real-time insights into the deployed application's infrastructure.
 
 ---
 
-## Resume Integration
-
-The resume is hosted securely on Amazon S3 and can be downloaded directly from the portfolio website.
-
-Workflow:
-
-```
-
-Resume PDF
-↓
-
-Amazon S3 Bucket
-↓
-
-Public Object URL
-↓
-
-Portfolio Resume Button
-↓
-
-Instant Download
-
-```
-
----
-
-## DevOps Concepts Demonstrated
+# 🎯 DevOps Concepts Demonstrated
 
 This project demonstrates:
 
+- Cloud Computing
 - Infrastructure Deployment
 - Docker Containerization
-- Cloud Computing
 - CI/CD Automation
+- Production Deployment
 - Git Workflows
 - AWS Services Integration
-- Cloud Monitoring
+- Monitoring & Observability
 - Static Asset Management
-- Version Control
-- Production Deployment
 
 ---
 
-## Skills Demonstrated
+# 🧠 Skills Demonstrated
 
-### Cloud
+## Cloud
 
 - AWS EC2
 - Amazon S3
 - Amazon CloudWatch
 
-### DevOps
+## DevOps
 
 - Docker
-- CI/CD
 - GitHub Actions
+- CI/CD Pipelines
 - Linux Commands
 
-### Development
+## Development
 
 - React
 - Vite
@@ -338,7 +315,7 @@ This project demonstrates:
 - CSS
 - JavaScript
 
-### Tools
+## Tools
 
 - Git
 - GitHub
@@ -347,51 +324,54 @@ This project demonstrates:
 
 ---
 
-## Future Improvements
+# 🔮 Future Improvements
 
 - Custom Domain Name
-- HTTPS Configuration
+- HTTPS Support
 - Elastic IP Integration
 - SSL Certificate Setup
-- Automatic Container Restart Policies
-- CloudWatch Alarms
+- CloudWatch Alerts
 - DNS Configuration
-- Multi-Environment Deployments
+- Automatic Container Restart Policies
 
 ---
 
-## Live Demo
+# 🌐 Live Demo
 
 ```
 Coming Soon
+(Custom Domain Deployment)
 ```
 
-(Will be updated after custom domain deployment.)
+---
+
+# 👩‍💻 About Me
+
+## Preethi Kondaveeti
+
+> AI/ML Engineer • Cloud & DevOps Enthusiast
+
+- LinkedIn : https://www.linkedin.com/in/preethi-kondaveeti/
+- GitHub : https://github.com/aibyp
 
 ---
 
-## Author
-
-### Preethi Kondaveeti
-
-AI/ML Engineer | Cloud & DevOps Enthusiast
-
-- LinkedIn: YOUR_LINKEDIN_LINK
-- GitHub: YOUR_GITHUB_LINK
-- Portfolio: LIVE_PORTFOLIO_LINK
-
----
-
-## Project Highlights
+# ⭐ Project Highlights
 
 - Built from scratch using modern DevOps practices.
-- Deployed on AWS cloud infrastructure.
-- Automated deployment using GitHub Actions.
 - Containerized using Docker.
-- Integrated Amazon S3 for static asset hosting.
-- Monitored using Amazon CloudWatch.
-- Designed to simulate a real-world production deployment workflow.
+- Automated deployments using GitHub Actions.
+- Deployed on AWS EC2.
+- Integrated Amazon S3 for resume hosting.
+- Monitored using CloudWatch.
+- Designed to simulate real-world production deployment workflows.
 
 ---
 
-> "Building trustworthy AI systems is not just about models—it's also about deploying, automating, and monitoring them at scale."
+<div align="center">
+
+## THANK YOU FOR VISITING! 🚀
+
+*"Building trustworthy AI systems is not just about models—it's also about deploying, automating, and monitoring them at scale."*
+
+</div>
