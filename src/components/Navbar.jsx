@@ -41,10 +41,15 @@ function Navbar() {
           <FaLinkedin />
         </a>
 
-        <button className="resume-btn">
-          Resume
-        </button>
-
+        <a
+  href="https://preethyyyy-resume-pdf.s3.eu-north-1.amazonaws.com/portfolio-now.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="resume-btn">
+      Resume
+  </button>
+</a>
       </div>
 
     </nav>
