@@ -87,8 +87,8 @@ function Skills() {
         <h2>Technologies I Work With</h2>
 
         <p>
-          A collection of technologies, frameworks and tools I use while
-          building AI-powered applications.
+          A collection of technologies, frameworks and tools i use while
+          building AI&ML -powered applications.
         </p>
       </div>
 
