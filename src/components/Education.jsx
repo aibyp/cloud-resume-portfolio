@@ -6,7 +6,7 @@ function Education() {
 
       <p className="section-tag">EDUCATION</p>
 
-      <h2>Academic Journey</h2>
+      <h2>Academic Timeline</h2>
 
       <div className="edu-card">
 
