@@ -88,7 +88,7 @@ function Skills() {
 
         <p>
           A collection of technologies, frameworks and tools i use while
-          building AI&ML -powered applications.
+          building AI&ML -powered applications and solutions.
         </p>
       </div>
 
